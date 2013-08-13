@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>SmartTV_StockListDemo</title>
+
+		<script type='text/javascript' language='javascript' src='$MANAGER_WIDGET/Common/API/Widget.js'></script>
+		<script type='text/javascript' language='javascript' src='$MANAGER_WIDGET/Common/API/TVKeyValue.js'></script>
+
+		<script language="javascript" type="text/javascript" src="app/javascript/require.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/lightstreamer.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/main.js"></script>
+        
+		<link rel="stylesheet" href="app/stylesheets/main.css" type="text/css">
+	</head>
+
+	<body onload="Main.onLoad();" onunload="Main.onUnload();">
+		<div>
+		    <table border="0">
+		      	<tr>
+		        	<td>
+		          		<img src="app/images/72.png" alt="LIGHTSTREAMER" hspace="0" border="0" />
+		            </td>
+		        	<td style="color: white">BASIC STOCK-LIST DEMO</td>
+		      	</tr>
+		    </table>
+			<table>
+				<tr >
+	        		<td width="148" style="text-align: left;color: white">Name</td>
+	        		<td width="42"  style="text-align: center;color: white">Last</td>
+	      		</tr>
+	      		<tr class="coldOdd">
+	        		<td nowrap="nowrap" style="text-align: left"><div class="stockNameOdd" data-source="lightstreamer" data-grid="stocks" data-item="item1" data-field="stock_name">Loading...</div></td>
+	        		<td><div data-source="lightstreamer" data-grid="stocks" data-item="item1" data-field="last_price">-</div></td>
+				</tr>
+				<tr class="coldEven">
+	        		<td nowrap="nowrap" style="text-align: left"><div class="stockNameEven" data-source="lightstreamer" data-grid="stocks" data-item="item2" data-field="stock_name">Loading...</div></td>
+	        		<td><div data-source="lightstreamer" data-grid="stocks" data-item="item2" data-field="last_price">-</div></td>
+				</tr>
+				<tr class="coldOdd">
+	        		<td nowrap="nowrap" style="text-align: left"><div class="stockNameOdd" data-source="lightstreamer" data-grid="stocks" data-item="item3" data-field="stock_name">Loading...</div></td>
+	        		<td><div data-source="lightstreamer" data-grid="stocks" data-item="item3" data-field="last_price">-</div></td>
+				</tr>
+			</table>
+			
+		</div>
+		<!-- Dummy anchor as focus for key events -->
+		<a href='javascript:void(0);' id='anchor' onkeydown='Main.MainKeyHandler();'></a>
+	</body>
+</html>
