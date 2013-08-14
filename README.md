@@ -22,7 +22,7 @@ The demo includes the following client-side technologies:
 
 Please to run the demo:
 
-* Download and install the [Samsung SMART TV SDK](https://www.samsungdforum.com/Devtools/SdkDownload) (choose the platform of your interest).
+* Download and install the [Samsung SMART TV SDK](https://www.samsungdforum.com/Devtools/SdkDownload) (choose the platform of your interest), this example is based on version 4.5 of the SDK.
 * Download and install the [Oracle VM Virtual Box](http://www.virtualbox.org/).
 * Download and install the [Smart TV SDK Emulator Image for Virtual Box](https://www.samsungdforum.com/Devtools/SdkDownload) and import it in Virtual Box.
 * Download the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) and copy the lightstreamer.js file from the Lightstreamer JavaScript Client SDK (that is located under the DOCS-SDKs/sdk_client_javascript/lib folder) into the "app/javascript" folder of this project.
@@ -32,7 +32,7 @@ Once ready, create in eclipse a new <b>Samsung Smart TV JavaScript App Project</
 
 # Deploy #
 
-In order to run the demo please right-click on the eclipse project and press "Run As" -> "Run Current Project in Samsung Smart TV Emulator". The Emulator will be launched automatically and the demo will be deployed and started as soon as the Emultor goes up.<br>
+In order to run the demo please right-click on the eclipse project and press "Run As" -> "Run Current Project in Samsung Smart TV Emulator". The Emulator will be launched automatically and the demo will be deployed and started as soon as the emulator goes up.<br>
 
 You may run the demo against your local server instead of using our online server @ [http://push.lightstreamer.com:80](http://push.lightstreamer.com:80). The server to which the demo will connect to is configured in the app/javascript/Main.js file. In this case, the example requires that the [QUOTE_ADAPTER](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java) and [LiteralBasedProvider](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java) have to be deployed in your local Lightstreamer server instance. The factory configuration of Lightstreamer server already provides this adapter deployed.
 
