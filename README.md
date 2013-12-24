@@ -1,5 +1,7 @@
 # Lightstreamer - Basic Stock-List Demo - Samsung Smart TV Client #
 
+<!-- START DESCRIPTION lightstreamer-example-stocklist-client-smarttv -->
+
 This demo shows how to use the <b>Lightstreamer JavaScript Client library</b> and the the <b>Samsung Smart TV SDK</b> to create a simple streaming-enabled application.
 
 ## Basic StockList Demo for Samsung Samrt TV SDK##
@@ -17,6 +19,8 @@ This demo displays real-time last price data for 3 stocks, simulated Stock-List 
 
 The demo includes the following client-side technologies:
 * A [Subscription](http://www.lightstreamer.com/docs/client_javascript_uni_api/Subscription.html) containing 3 items, subscribed to in <b>MERGE</b> mode feeding a [StaticGrid](http://www.lightstreamer.com/docs/client_javascript_uni_api/StaticGrid.html).
+
+<!-- END DESCRIPTION lightstreamer-example-stocklist-client-smarttv -->
 
 # Build and Run #
 
@@ -40,8 +44,11 @@ You may run the demo against your local server instead of using our online serve
 
 ## Lightstreamer Adapters needed by this demo client ##
 
+<!-- START RELATED_ENTRIES -->
 * [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
 * [Lightstreamer - Reusable Metadata Adapters- Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
+
+<!-- END RELATED_ENTRIES -->
 
 ## Similar demo clients that may interest you ##
 
