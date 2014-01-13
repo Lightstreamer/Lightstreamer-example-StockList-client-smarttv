@@ -6,13 +6,7 @@ This demo shows how to use the <b>Lightstreamer JavaScript Client library</b> an
 
 ## Basic StockList Demo for Samsung Samrt TV SDK##
 
-<table>
-  <tr>
-    <td style="text-align: left">
-      &nbsp;<img src="/SSmartTV.png">&nbsp;
-    </td>
-  </tr>
-</table>
+![Screenshot](SSmartTV.png)<br>
 
 
 This demo displays real-time last price data for 3 stocks, simulated Stock-List data is received from the Lightstreamer Server deployed @ [http://push.lightstreamer.com](http://push.lightstreamer.com).<br>
@@ -42,7 +36,7 @@ You may run the demo against your local server instead of using our online serve
 
 # See Also #
 
-## Lightstreamer Adapters needed by this demo client ##
+## Lightstreamer Adapters Needed by This Demo Client ##
 
 <!-- START RELATED_ENTRIES -->
 * [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
@@ -50,7 +44,7 @@ You may run the demo against your local server instead of using our online serve
 
 <!-- END RELATED_ENTRIES -->
 
-## Similar demo clients that may interest you ##
+## Related Projects ##
 
 * [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript)
 * [Lightstreamer - Basic Stock-List Demo - iOS Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-ios)
