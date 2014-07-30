@@ -31,7 +31,8 @@ Once ready, create in eclipse a new <b>Samsung Smart TV JavaScript App Project</
 
 In order to run the demo please right-click on the eclipse project and press <b>Run As -> Run Current Project</b> in Samsung Smart TV Emulator. The Emulator will be launched automatically and the demo will be deployed and started as soon as the emulator goes up.<br>
 
-You may run the demo against your local server instead of using our online server @ [http://push.lightstreamer.com:80](http://push.lightstreamer.com:80). The server to which the demo will connect to is configured in the app/javascript/Main.js file. In this case, the example requires that the [QUOTE_ADAPTER](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java) and [LiteralBasedProvider](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java) have to be deployed in your local Lightstreamer server instance. The factory configuration of Lightstreamer server already provides this adapter deployed.
+You may run the demo against your local server instead of using our online server @ [http://push.lightstreamer.com:80](http://push.lightstreamer.com:80). The server to which the demo will connect to is
+configured in the `app/javascript/Main.js` file. In this case, the example requires that the [QUOTE_ADAPTER](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java) and [LiteralBasedProvider](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java) have to be deployed in your local Lightstreamer server instance. The factory configuration of Lightstreamer server already provides this adapter deployed.
 
 ## See Also
 
