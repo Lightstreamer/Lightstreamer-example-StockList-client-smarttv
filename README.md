@@ -11,7 +11,7 @@ This demo shows how to use the <b>Lightstreamer JavaScript Client library</b> an
 This demo displays real-time last price data for 3 stocks, simulated Stock-List data is received from the Lightstreamer Server deployed @ [http://push.lightstreamer.com](http://push.lightstreamer.com).<br>
 
 The demo includes the following client-side functionalities:
-* A [Subscription](http://www.lightstreamer.com/docs/client_javascript_uni_api/Subscription.html) containing 3 items, subscribed to in <b>MERGE</b> mode, feeding a [StaticGrid](http://www.lightstreamer.com/docs/client_javascript_uni_api/StaticGrid.html).
+* A [Subscription](https://lightstreamer.com/api/ls-web-client/latest/Subscription.html) containing 3 items, subscribed to in <b>MERGE</b> mode, feeding a [StaticGrid](https://lightstreamer.com/api/ls-web-client/latest/StaticGrid.html).
 
 <!-- END DESCRIPTION lightstreamer-example-stocklist-client-smarttv -->
 
@@ -22,7 +22,7 @@ To build and run your own version of this demo, follow these steps:
 * Download and install the [Samsung SMART TV SDK](https://www.samsungdforum.com/Devtools/SdkDownload) (choose the platform of your interest), this example is based on version 4.5 of the SDK.
 * Download and install the [Oracle VM Virtual Box](http://www.virtualbox.org/).
 * Download and install the [Smart TV SDK Emulator Image for Virtual Box](https://www.samsungdforum.com/Devtools/SdkDownload) and import it in Virtual Box.
-* Download the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) and copy the `lightstreamer.js` file from the Lightstreamer JavaScript Client SDK (located under the `DOCS-SDKs/sdk_client_web_unified/lib` folder) into the `app/javascript` folder of this project.
+* Get the `lightstreamer.js` file from [npm](https://www.npmjs.com/package/lightstreamer-client-web) or [unpkg](https://unpkg.com/lightstreamer-client-web/lightstreamer.js) and copy it into the `app/javascript` folder of this project.
 * Download the [require.js](http://requirejs.org/) file and copy it into the `app/javascript` folder of this project.
 
 Once ready, create in eclipse a new <b>Samsung Smart TV JavaScript App Project</b> and overwrite the resources of this project on those newly created.
