@@ -22,7 +22,7 @@ To build and run your own version of this demo, follow these steps:
 * Download and install the [Samsung SMART TV SDK](https://www.samsungdforum.com/Devtools/SdkDownload) (choose the platform of your interest), this example is based on version 4.5 of the SDK.
 * Download and install the [Oracle VM Virtual Box](http://www.virtualbox.org/).
 * Download and install the [Smart TV SDK Emulator Image for Virtual Box](https://www.samsungdforum.com/Devtools/SdkDownload) and import it in Virtual Box.
-* Get the `lightstreamer.js` file from [npm](https://www.npmjs.com/package/lightstreamer-client-web) or [unpkg](https://unpkg.com/lightstreamer-client-web/lightstreamer.js) and copy it into the `app/javascript` folder of this project.
+* Get the `lightstreamer.min.js` file from [npm](https://www.npmjs.com/package/lightstreamer-client-web) or [unpkg](https://unpkg.com/lightstreamer-client-web/lightstreamer.min.js) and copy it into the `app/javascript` folder of this project.
 * Download the [require.js](http://requirejs.org/) file and copy it into the `app/javascript` folder of this project.
 
 Once ready, create in eclipse a new <b>Samsung Smart TV JavaScript App Project</b> and overwrite the resources of this project on those newly created.
@@ -61,4 +61,4 @@ the [LiteralBasedProvider](https://github.com/Lightstreamer/Lightstreamer-exampl
 
 ## Lightstreamer Compatibility Notes
 
-* Compatible with Lightstreamer JavaScript Client library version 6.0 or newer.
+* Compatible with Lightstreamer JavaScript Client library version 6.0 or newer (installation instructions for version 8.0 or newer).
